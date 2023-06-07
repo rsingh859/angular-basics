@@ -14,6 +14,7 @@ export class RecipesComponent implements OnInit {
   }
 
   onRecipeWasSelected(incomingdata) {
+    console.log(incomingdata)
     this.selectedRecipe = incomingdata
   }
 
